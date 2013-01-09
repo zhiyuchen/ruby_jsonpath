@@ -2,21 +2,21 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ruby_jsonpath}
-  s.version = "1.0.0"
-
+  s.version = "1.0.1"
+  s.homepage = 'https://github.com/zhiyuchen/ruby_jsonpath'
+  s.description = "JSONPath support for Ruby"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Zhiyu Chen"]
   s.date = %q{2013-01-08}
   s.email = %q{zhiyu@outlook.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.markdown"
+     "README.md"
   ]
   s.files = [
     ".document",
-     ".gitignore",
      "LICENSE",
-     "README.markdown",
+     "README.md",
      "Rakefile",
      "VERSION",
      "jsonpath.gemspec",
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
      "test/reference_test.rb",
      "test/test_helper.rb"
   ]
-  s.has_rdoc = false
+  s.has_rdoc = true
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.2}
